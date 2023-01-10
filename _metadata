@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "author" : "patm an",
+  "tags" : "Miscellaneous|User Interface",
+  "description" : "- key to zoom out\n= key to zoom in\n\nthat is so cool\n\n[url=https://github.com/StarExtensions/StarExtensions]requieres StarExtensions\n[img]https://media.discordapp.net/attachments/325351648849428480/1062448242324930570/se.png[/img]\n[/url]\n\n\n[url=https://discord.gg/GdsQSgV][img]https://i.imgur.com/wXjYMqP.gif[/img][/url]\n[url=https://www.patreon.com/pathiccstar][img]https://i.imgur.com/uyG8oTa.gif[/img][/url]\n[url=https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QCU2R9GP][img]https://i.imgur.com/xVfcRRH.gif[/img][/url]",
+  "name" : "pat_zoomkeys",
+  "friendlyName" : "[StarExtensions] zoom key binders",
+  "steamContentId" : "2916058850",
+  "link" : "steam://url/CommunityFilePage/2916058850"
+}
