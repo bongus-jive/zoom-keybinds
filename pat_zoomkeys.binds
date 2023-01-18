@@ -1,0 +1,24 @@
+{
+  "pat_zoomhotkeys": {
+    "name": "Zoom Hotkeys",
+    "bannerName" : "Zoom Hotkeys",
+    "binds": {
+      "zoomin": {
+        "default": [{
+          "type": "key",
+          "value": "=",
+          "mods": []
+        }],
+        "name": "Zoom In"
+      },
+      "zoomout": {
+        "default": [{
+          "type": "key",
+          "value": "-",
+          "mods": []
+        }],
+        "name": "Zoom Out"
+      }
+    }
+  }
+}

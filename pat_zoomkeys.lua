@@ -1,8 +1,15 @@
+function init()
+  if not starExtensions.version then
+    player.radioMessage({messageId = "nil", text = "update StarExtensions", unique = false}, 1)
+    script.setUpdateDelta(0)
+  end
+end
+
 function update()
-  if input.keyDown("=") then
+  if input.bindDown("pat_zoomhotkeys", "zoomin") then
     camera.setPixelRatio(math.min(10, camera.pixelRatio() + 1))
   end
-  if input.keyDown("-") then
+  if input.bindDown("pat_zoomhotkeys", "zoomout") then
     camera.setPixelRatio(math.max(1,  camera.pixelRatio() - 1))
   end
 end
