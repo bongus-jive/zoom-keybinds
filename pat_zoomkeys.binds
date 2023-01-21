@@ -1,6 +1,6 @@
 {
   "pat_zoomhotkeys": {
-    "name": "Zoom Keybinds",
+    "name": "^#ff80ce;Zoom Keybinds",
     "bannerName" : "Zoom Keybinds",
     "binds": {
       "zoomin": {
