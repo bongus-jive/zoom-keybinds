@@ -1,7 +1,7 @@
-function init()
-  if not starExtensions.version then
-    player.radioMessage({messageId = "nil", text = "update StarExtensions", unique = false}, 1)
+function init(
+  if not starExtensions and script.updateDt() ~= 0 then
     script.setUpdateDelta(0)
+    sb.logWarn("'Zoom Keybinds' requires StarExtensions - https://github.com/StarExtensions/StarExtensions/releases")
   end
 end
 
